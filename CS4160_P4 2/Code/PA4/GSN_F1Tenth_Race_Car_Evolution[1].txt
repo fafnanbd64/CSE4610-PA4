@@ -1,0 +1,65 @@
+Goal G1 System F1Tenth is safe and secure.
+	InContextOf
+		Context C1.1 Active system F1Tenth.
+	SupportedBy
+		Goal G1.1 MAPE-K effectively maintains safety and security of F1Tenth
+		SupportedBy
+			Strategy S1.1.1 Argue over MAPE-K's effectiveness of maintaining safety and security of F1Tenth system.
+			SupportedBy
+				Goal G1.1.1.1 Monitor effectively monitors sensor streams.
+				SupportedBy
+					Goal G1.1.1.1.1 All sensors are active.
+					SupportedBy
+						Strategy S1.1.1.1.1.1 Argue over all sensors.
+						SupportedBy
+							Goal G1.1.1.1.1.1.1 Sensor LiDAR is active.
+							SupportedBy
+								Solution Sn1.1.1.1.1.1.1.1 Sensor LiDAR has property with value: ranges = (0.13, 0.17, ..., 0.13).
+							InContextOf
+								Context C1.1.1.1.1.1.1.1 Sensor LiDAR has monitored property ranges.
+						SupportedBy
+							Goal G1.1.1.1.1.1.2 Sensor Hall wheel motor is active.
+							SupportedBy
+								Solution Sn1.1.1.1.1.1.2.1 Sensor Hall wheel motor sensor has property with value: wheel speed  = 1.799.
+							InContextOf
+								Context C1.1.1.1.1.1.2.1 Sensor Hall wheel motor sensor has monitored property wheel speed
+			SupportedBy
+				Goal G1.1.1.2 Analyzer effectively evaluates requirements satisfaction of the system.
+				SupportedBy
+					Strategy S1.1.1.2.1 Argue over requirements scenarios.
+					SupportedBy
+						Goal G1.1.1.2.1.1 Requirements in operational-secure mode are satisfied.
+						SupportedBy
+							Strategy S1.1.1.2.1.1.1 Argue over operational-secure mode safety requirements.
+							SupportedBy
+								Goal G1.1.1.2.1.1.1.1 safety requirement R1 is satisfied.
+								SupportedBy
+									Solution Sn1.1.1.2.1.1.1.1.1 Requirement R1 is satisfied according to formula: end_i - start_i >= 2 * car_width & for range in ranges: range >= 1.5 is True
+							SupportedBy
+								Goal G1.1.1.2.1.1.1.2 safety requirement R2 is satisfied.
+								SupportedBy
+									Solution Sn1.1.1.2.1.1.1.2.1 Requirement R2 is satisfied according to formula: steering_angle >= 90
+							SupportedBy
+								Goal G1.1.1.2.1.1.1.3 safety requirement R3 is satisfied.
+								SupportedBy
+									Solution Sn1.1.1.2.1.1.1.3.1 Requirement R3 is satisfied according to formula: speed = 0.5 if 50 < steering_angle <= 90 or speed = 1.0 if 40 < steering_angle <= 50 or speed = 1.5 if 20 < steering_angle <= 40 or speed = 2.0 if 0 <= steering_angle <= 20
+						SupportedBy
+							Strategy S1.1.1.2.1.1.2 Argue over operational-secure mode security requirements.
+							SupportedBy
+								Goal G1.1.1.2.1.1.2.1 security requirement R5 is satisfied.
+								SupportedBy
+									Solution Sn1.1.1.2.1.1.2.1.1 Requirement R5 is satisfied according to formula: proc_ranges == ranges
+			SupportedBy
+				Goal G1.1.1.3 Planner appropriately plans a new adaptation strategy to satisfy requirements.
+				SupportedBy
+					Goal G1.1.1.3.1 Actions planned based on adaptation options in knowledge base in system memory.
+					InContextOf
+						Context C1.1.1.3.1.1 System configuration (speed, steering angle) = (2.0, 0.0)
+					SupportedBy
+						Solution Sn1.1.1.3.1.1 Selected Adaptations and Tactical Procedures.
+			SupportedBy
+				Goal G1.1.1.4 Executor executes the adaptation strategies planned by the Planner(s).
+				SupportedBy
+					Goal G1.1.1.4.1 Adaptation procedure from selected adaptations is executed correctly.
+					SupportedBy
+						Solution Sn1.1.1.4.1.1 System adapted to satisfy requirements in new configuration (speed, steering_angle) = (2.0, 0.0)

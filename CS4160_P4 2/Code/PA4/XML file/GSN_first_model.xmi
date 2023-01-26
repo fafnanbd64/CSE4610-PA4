@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ARM:Argumentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ARM="http://schema.omg.org/SACM/1.0/Argumentation" xmi:id="_962UUMBDEeizM-dC3yLnIg" id="GSNCS6600_F18_GSN_first" description="" content="">
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UUcBDEeizM-dC3yLnIg" id="G6.3" description="" content="On detection of any of the specified failure conditions, all signal lights are extinguished" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_962UUsBDEeizM-dC3yLnIg" id="C6.3" description="" content="&quot;All signal lights&quot; include those for pedestrians" url=""/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_962UU8BDEeizM-dC3yLnIg" id="S6.3" description="" content="Argue over each failure condition &amp; any combination thereof" describedInference="_962UYsBDEeizM-dC3yLnIg _962UY8BDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UVMBDEeizM-dC3yLnIg" id="G6.3a" description="" content="Notify appropriate local governmental department of extinguished lights and resolve failure conditions." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_962UVcBDEeizM-dC3yLnIg" id="Sn6.3" description="" content="Confirmation of working signals from work crews" url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UVsBDEeizM-dC3yLnIg" id="G6.3b" description="" content="Extinguish signal lights when argued failure conditions are confirmed." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_962UV8BDEeizM-dC3yLnIg" id="C6.3a" description="" content="Operations defined in specification" url=""/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_962UWMBDEeizM-dC3yLnIg" id="S6.3a" description="" content="Direct work crews to resolve failure condtions and ignite signal lights" describedInference="_962UacBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UWcBDEeizM-dC3yLnIg" id="G6.3c" description="" content="Resolve failure conditions based on assessments" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_962UWsBDEeizM-dC3yLnIg" id="Sn6.3a" description="" content="Experimental test data generated from application of failure conditions" url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UW8BDEeizM-dC3yLnIg" id="A6.3a" description="" content="It is assumed that vehicle traffic is in the junction" assumed="true" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UXMBDEeizM-dC3yLnIg" id="A6.3b" description="" content="The failure conditions are specified in the concept of operations" assumed="true" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UXcBDEeizM-dC3yLnIg" id="A6.3c" description="" content="The system fulfills its electromagnetic interference susceptability requirements" assumed="true" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UXsBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UXMBDEeizM-dC3yLnIg" target="_962UUcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UX8BDEeizM-dC3yLnIg" id="" description="" content="" source="_962UXcBDEeizM-dC3yLnIg" target="_962UU8BDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UYMBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UUsBDEeizM-dC3yLnIg" target="_962UUcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UYcBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UW8BDEeizM-dC3yLnIg" target="_962UUcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_962UYsBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UVMBDEeizM-dC3yLnIg" target="_962UUcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_962UY8BDEeizM-dC3yLnIg" id="" description="" content="" source="_962UVsBDEeizM-dC3yLnIg" target="_962UUcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UZMBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UV8BDEeizM-dC3yLnIg" target="_962UVsBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UZcBDEeizM-dC3yLnIg" id="J6.3" description="" content="Arguments of failure conditions has been thoroughly tested." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UZsBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UZcBDEeizM-dC3yLnIg" target="_962UVMBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_962UZ8BDEeizM-dC3yLnIg" id="J6.a" description="" content="Work crews given accurate account of failure conditions found" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_962UaMBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UZ8BDEeizM-dC3yLnIg" target="_962UWcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_962UacBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UWcBDEeizM-dC3yLnIg" target="_962UVMBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_962UasBDEeizM-dC3yLnIg" id="" description="" content="" source="_962UVcBDEeizM-dC3yLnIg" target="_962UWcBDEeizM-dC3yLnIg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_962Ua8BDEeizM-dC3yLnIg" id="" description="" content="" source="_962UWsBDEeizM-dC3yLnIg" target="_962UVsBDEeizM-dC3yLnIg"/>
+</ARM:Argumentation>

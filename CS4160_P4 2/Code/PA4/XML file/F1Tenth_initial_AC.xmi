@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ARM:Argumentation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ARM="http://schema.omg.org/SACM/1.0/Argumentation" xmi:id="_kNRh0FxFEe2XFJSqWyVcEg" id="F1Tenth_initial_AC" description="" content="">
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlIFxFEe2XFJSqWyVcEg" id="G1" description="" content="System F1Tenth is safe and secure." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlIVxFEe2XFJSqWyVcEg" id="G1.1" description="" content="MAPE-K effectively maintains safety and security of F1Tenth" assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_kNUlIlxFEe2XFJSqWyVcEg" id="S1.1.1" description="" content="Argue over MAPE-K's effectiveness of maintaining safety and security of F1Tenth system." describedInference="_kNUlQlxFEe2XFJSqWyVcEg _kNUlQ1xFEe2XFJSqWyVcEg _kNUlRFxFEe2XFJSqWyVcEg _kNUlRVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlI1xFEe2XFJSqWyVcEg" id="G1.1.1.1" description="" content="Monitor effectively monitors sensor streams." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlJFxFEe2XFJSqWyVcEg" id="G1.1.1.2" description="" content="Analyzer effectively evaluates requirements satisfaction of the system." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlJVxFEe2XFJSqWyVcEg" id="G1.1.1.3" description="" content="Planner appropriately plans a new adaptation strategy to satisfy requirements." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlJlxFEe2XFJSqWyVcEg" id="G1.1.1.4" description="" content="Executor executes the adaptation strategies planned by the Planner(s)." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlJ1xFEe2XFJSqWyVcEg" id="C1.1" description="" content="Active system F1Tenth." url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlKFxFEe2XFJSqWyVcEg" id="G1.1.1.1.1" description="" content="All sensors are active." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_kNUlKVxFEe2XFJSqWyVcEg" id="S1.1.1.1.1.1" description="" content="Argue over all sensors." describedInference="_kNVMMVxFEe2XFJSqWyVcEg _kNVMMlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlKlxFEe2XFJSqWyVcEg" id="G1.1.1.1.1.1.1" description="" content="Sensor LiDAR is active." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlK1xFEe2XFJSqWyVcEg" id="G1.1.1.1.1.1.2" description="" content="Sensor Hall wheel motor is active." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlLFxFEe2XFJSqWyVcEg" id="Sn1.1.1.1.1.1.1.1" description="" content="Sensor LiDAR has property with value: ranges = (0.13, 0.17, ..., 0.13)." url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlLVxFEe2XFJSqWyVcEg" id="Sn1.1.1.1.1.1.2.1" description="" content="Sensor Hall wheel motor sensor has property with value: wheel speed  = 1.799." url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlLlxFEe2XFJSqWyVcEg" id="C1.1.1.1.1.1.1.1" description="" content="Sensor LiDAR has monitored property ranges." url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlL1xFEe2XFJSqWyVcEg" id="C1.1.1.1.1.1.2.1" description="" content="Sensor Hall wheel motor sensor has monitored property wheel speed" url=""/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_kNUlMFxFEe2XFJSqWyVcEg" id="S1.1.1.2.1" description="" content="Argue over requirements scenarios." describedInference="_kNVMN1xFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlMVxFEe2XFJSqWyVcEg" id="G1.1.1.2.1.1" description="" content="Requirements in operational-secure mode are satisfied." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_kNUlMlxFEe2XFJSqWyVcEg" id="S1.1.1.2.1.1.1" description="" content="Argue over operational-secure mode safety requirements." describedInference="_kNVMOFxFEe2XFJSqWyVcEg _kNVMOVxFEe2XFJSqWyVcEg _kNVMOlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlM1xFEe2XFJSqWyVcEg" id="G1.1.1.2.1.1.1.1" description="" content="safety requirement R1 is satisfied." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlNFxFEe2XFJSqWyVcEg" id="G1.1.1.2.1.1.1.2" description="" content="safety requirement R2 is satisfied." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlNVxFEe2XFJSqWyVcEg" id="G1.1.1.2.1.1.1.3" description="" content="safety requirement R3 is satisfied." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlNlxFEe2XFJSqWyVcEg" id="Sn1.1.1.2.1.1.1.1.1" description="" content="Requirement R1 is satisfied according to formula: end_i - start_i >= 2 * car_width &amp; for range in ranges: range >= 1.5 is True" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlN1xFEe2XFJSqWyVcEg" id="Sn1.1.1.2.1.1.1.2.1" description="" content="Requirement R2 is satisfied according to formula: steering_angle >= 90" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlOFxFEe2XFJSqWyVcEg" id="Sn1.1.1.2.1.1.1.3.1" description="" content="Requirement R3 is satisfied according to formula: speed = 0.5 if 50 &lt; steering_angle &lt;= 90 or speed = 1.0 if 40 &lt; steering_angle &lt;= 50 or speed = 1.5 if 20 &lt; steering_angle &lt;= 40 or speed = 2.0 if 0 &lt;= steering_angle &lt;= 20" url=""/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlOVxFEe2XFJSqWyVcEg" id="G1.1.1.4.1" description="" content="Adaptation procedure from selected adaptations is executed correctly." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlOlxFEe2XFJSqWyVcEg" id="G1.1.1.3.1" description="" content="Actions planned based on adaptation options in knowledge base in system memory." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlO1xFEe2XFJSqWyVcEg" id="C1.1.1.3.1.1" description="" content="System configuration (speed, steering angle) = (2.0, 0.0)" url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlPFxFEe2XFJSqWyVcEg" id="Sn1.1.1.3.1.1" description="" content="Selected Adaptations and Tactical Procedures." url=""/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlPVxFEe2XFJSqWyVcEg" id="Sn1.1.1.4.1.1" description="" content="System adapted to satisfy requirements in new configuration (speed, steering_angle) = (2.0, 0.0)" url=""/>
+  <argumentElement xsi:type="ARM:ArgumentReasoning" xmi:id="_kNUlPlxFEe2XFJSqWyVcEg" id="S1.1.1.2.1.1.2" description="" content="Argue over operational-secure mode security requirements." describedInference="_kNVMQ1xFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:Claim" xmi:id="_kNUlP1xFEe2XFJSqWyVcEg" id="G1.1.1.2.1.1.2.1" description="" content="security requirement R5 is satisfied." assumed="false" toBeSupported="false"/>
+  <argumentElement xsi:type="ARM:InformationElement" xmi:id="_kNUlQFxFEe2XFJSqWyVcEg" id="Sn1.1.1.2.1.1.2.1.1" description="" content="Requirement R5 is satisfied according to formula: proc_ranges == ranges" url=""/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNUlQVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlIVxFEe2XFJSqWyVcEg" target="_kNUlIFxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNUlQlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlI1xFEe2XFJSqWyVcEg" target="_kNUlIVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNUlQ1xFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlJFxFEe2XFJSqWyVcEg" target="_kNUlIVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNUlRFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlJVxFEe2XFJSqWyVcEg" target="_kNUlIVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNUlRVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlJlxFEe2XFJSqWyVcEg" target="_kNUlIVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_kNUlRlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlJ1xFEe2XFJSqWyVcEg" target="_kNUlIFxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMMFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlKFxFEe2XFJSqWyVcEg" target="_kNUlI1xFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMMVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlKlxFEe2XFJSqWyVcEg" target="_kNUlKFxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMMlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlK1xFEe2XFJSqWyVcEg" target="_kNUlKFxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMM1xFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlLFxFEe2XFJSqWyVcEg" target="_kNUlKlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMNFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlLVxFEe2XFJSqWyVcEg" target="_kNUlK1xFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_kNVMNVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlLlxFEe2XFJSqWyVcEg" target="_kNUlKlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_kNVMNlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlL1xFEe2XFJSqWyVcEg" target="_kNUlK1xFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMN1xFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlMVxFEe2XFJSqWyVcEg" target="_kNUlJFxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMOFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlM1xFEe2XFJSqWyVcEg" target="_kNUlMVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMOVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlNFxFEe2XFJSqWyVcEg" target="_kNUlMVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMOlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlNVxFEe2XFJSqWyVcEg" target="_kNUlMVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMO1xFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlNlxFEe2XFJSqWyVcEg" target="_kNUlM1xFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMPFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlN1xFEe2XFJSqWyVcEg" target="_kNUlNFxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMPVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlOFxFEe2XFJSqWyVcEg" target="_kNUlNVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMPlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlOVxFEe2XFJSqWyVcEg" target="_kNUlJlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMP1xFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlOlxFEe2XFJSqWyVcEg" target="_kNUlJVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedContext" xmi:id="_kNVMQFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlO1xFEe2XFJSqWyVcEg" target="_kNUlOlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMQVxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlPFxFEe2XFJSqWyVcEg" target="_kNUlOlxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMQlxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlPVxFEe2XFJSqWyVcEg" target="_kNUlOVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedInference" xmi:id="_kNVMQ1xFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlP1xFEe2XFJSqWyVcEg" target="_kNUlMVxFEe2XFJSqWyVcEg"/>
+  <argumentElement xsi:type="ARM:AssertedEvidence" xmi:id="_kNVMRFxFEe2XFJSqWyVcEg" id="" description="" content="" source="_kNUlQFxFEe2XFJSqWyVcEg" target="_kNUlP1xFEe2XFJSqWyVcEg"/>
+</ARM:Argumentation>

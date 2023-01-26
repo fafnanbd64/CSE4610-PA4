@@ -1,0 +1,30 @@
+SupportedBy
+	Goal G6.3 On detection of any of the specified failure conditions, all signal lights are extinguished
+	SupportedBy
+		Goal A6.3b The failure conditions are specified in the concept of operations
+	InContextOf
+		Context C6.3 "All signal lights" include those for pedestrians
+	SupportedBy
+		Goal A6.3a It is assumed that vehicle traffic is in the junction
+	SupportedBy
+		Strategy S6.3 Argue over each failure condition & any combination thereof
+		SupportedBy
+			Goal A6.3c The system fulfills its electromagnetic interference susceptability requirements
+		SupportedBy
+			Goal G6.3a Notify appropriate local governmental department of extinguished lights and resolve failure conditions.
+			SupportedBy
+				Goal J6.3 Arguments of failure conditions has been thoroughly tested.
+			SupportedBy
+				Strategy S6.3a Direct work crews to resolve failure condtions and ignite signal lights
+				SupportedBy
+					Goal G6.3c Resolve failure conditions based on assessments
+					SupportedBy
+						Goal J6.a Work crews given accurate account of failure conditions found
+					SupportedBy
+						Solution Sn6.3 Confirmation of working signals from work crews
+		SupportedBy
+			Goal G6.3b Extinguish signal lights when argued failure conditions are confirmed.
+			InContextOf
+				Context C6.3a Operations defined in specification
+			SupportedBy
+				Solution Sn6.3a Experimental test data generated from application of failure conditions
